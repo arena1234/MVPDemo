@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:key="pref_group_menu_key"
+        android:title="@string/menu_title" >
+        <Preference
+            android:key="pref_recycle_view_key"
+            android:title="@string/menu_recycle_view" />
+        <Preference
+            android:key="pref_tab_page_key"
+            android:title="@string/menu_tab_page" />
+   </PreferenceCategory>
+</PreferenceScreen>

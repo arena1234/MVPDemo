@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference
+        android:key="pref_option_recycle_key"
+        android:title="@string/menu_recycle_view"
+        android:summary="@string/option_recycle_default"
+        android:defaultValue="@string/option_recycle_default"
+        android:entryValues="@array/pref_option_recycle_entryvalues"
+        android:entries="@array/pref_option_recycle_entries"/>
+</PreferenceScreen>

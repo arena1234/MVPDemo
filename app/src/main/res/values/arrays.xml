@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_option_recycle_entries" translatable="false">
+        <item>@string/option_recycle_list</item>
+        <item>@string/option_recycle_grid</item>
+        <item>@string/option_recycle_flow</item>
+    </string-array>
+
+    <string-array name="pref_option_recycle_entryvalues" translatable="false">
+        <item>@string/option_recycle_list</item>
+        <item>@string/option_recycle_grid</item>
+        <item>@string/option_recycle_flow</item>
+    </string-array>
+</resources>
