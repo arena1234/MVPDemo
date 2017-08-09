@@ -19,6 +19,7 @@ import com.wq.demo.adapter.ListAdapter;
 import com.wq.demo.bean.Item;
 import com.wq.demo.presenter.IController;
 import com.wq.demo.presenter.Presenter;
+import com.wq.demo.rxjava.Weather;
 import com.wq.demo.widget.CustomDrawerLayout;
 import com.wq.demo.widget.CustomToast;
 
@@ -43,6 +44,8 @@ public class MainActivity extends BaseActivity implements IAppUi, IController {
         mPresenter = new Presenter(this);
         initMenu();
         replaceContent(ContentValue.RecyclerViewList);
+        Weather weather = new Weather();
+        weather.getWeather("chengdu");
     }
 
     private void initMenu() {
